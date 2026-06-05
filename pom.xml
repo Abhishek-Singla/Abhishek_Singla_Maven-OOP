@@ -35,9 +35,6 @@
             <version>5.10.2</version>
             <scope>test</scope>
         </dependency>
-    <dependency>
-      
-    </dependency>
   </dependencies>
 
   <build>
@@ -84,6 +81,14 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <plugins>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.2.5</version>
+      </plugin>
+    </plugins>
   </build>
 </project>
+
+
 
